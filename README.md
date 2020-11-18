@@ -1,45 +1,40 @@
 # Phishing Detection GAN
 
-> **[?]** 
-> Provide short description for your project here.
-
-
-
----
-
 ## About
 
-> **[?]**
-> Provide general information about your project here.
-> What problem does it (intend to) solve?
-> What is the purpose of your project?
-> Why did you undertake it?
-> You don't have to answer all the questions - just the ones relevant to your project.
+The primary objective of this project is to effectively model phishing website characteristics using Generative Adversarial Networks, and use it to detect phishing attacks. We use only the visual and textual characteristics of the phishing website to model the attacker's signature. The primary use-case of this idea would primarily be for situations which require expedited re-training of the neural network, which would otherwise take a significantly longer time, when using large amounts website metadata for formulating the signature. The extended re-training time required is a significant attack vector which could be exploited by malicious agents.
 
-
+Please check the progress report <a href = "https://github.com/vignesh-pagadala/phishing-detection-gan/blob/main/docs/Progress-Report-Phishing-Detection-GAN.pdf">here</a> for detailed information, and goals achieved.
 
 ### Built With
 
-> **[?]**
-> Please provide the technologies that are used in the project.
+* Python 3: https://www.python.org/download/releases/3.0/
+* TensorFlow 2: https://www.tensorflow.org/ 
+* PyTorch: https://pytorch.org/ 
+* Jupyter Notebook: https://jupyter.org/
 
 ## Getting Started
 
 ### Prerequisites
 
-> **[?]**
-> What are the project requirements/dependencies?
+* Python 3: https://www.python.org/download/releases/3.0/
+* TensorFlow 2: https://www.tensorflow.org/
+* PyTorch: https://pytorch.org/
+* Anaconda distribution: https://www.anaconda.com/products/individual
 
 ### Installation
 
-> **[?]**
-> Proceed to describe how to install and get started with the project.
+To install, clone the repo to your local machine:
+
+`git clone https://github.com/vignesh-pagadala/phishing-detection-gan.git`
 
 ## Usage
 
-> **[?]**
-> How does one go about using it?
-> Provide various use cases and code examples here.
+To reproduce, run the code through the Jupyter Notebooks:
+
+`cd docs/Notebooks/`
+
+`jupyter-notebook DCGAN-Implementation-1.ipynb`
 
 ## Roadmap
 
@@ -50,9 +45,6 @@ See the [open issues](https://github.com/vignesh-pagadala/phishing-detection-gan
 - [Newest Bugs](https://github.com/vignesh-pagadala/phishing-detection-gan/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 
 ## Support
-
-> **[?]**
-> Provide additional ways to contact the project maintainer/maintainers.
 
 Reach out to the maintainer at one of the following places:
 
@@ -95,9 +87,3 @@ _For more info, please refer to the [security](docs/SECURITY.md)._
 This project is licensed under the **Apache Software License 2.0**.
 
 See [LICENSE](LICENSE) for more information.
-
-## Acknowledgements
-
-> **[?]**
-> If your work was funded by any organization or institution, acknowledge their support here.
-> In addition, if your work relies on other software libraries, or was inspired by looking at other work, it is appropriate to acknowledge this intellectual debt too.
