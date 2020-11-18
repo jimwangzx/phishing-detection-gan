@@ -1,0 +1,1 @@
+{'host_name': 'localhost', 'start_time': '2020-07-27 18:06:57.352305', 'task_name': 'vignesh_pagadala-00014-sgan-custom_dataset-1gpu'}

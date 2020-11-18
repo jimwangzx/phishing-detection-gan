@@ -1,0 +1,23 @@
+dnnlib: Running training.training_loop.training_loop() on localhost...
+Traceback (most recent call last):
+  File "train.py", line 191, in <module>
+    main()
+  File "train.py", line 186, in main
+    dnnlib.submit_run(**kwargs)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/dnnlib/submission/submit.py", line 290, in submit_run
+    run_wrapper(submit_config)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/dnnlib/submission/submit.py", line 242, in run_wrapper
+    util.call_func_by_name(func_name=submit_config.run_func_name, submit_config=submit_config, **submit_config.run_func_kwargs)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/dnnlib/util.py", line 257, in call_func_by_name
+    return func_obj(*args, **kwargs)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/training/training_loop.py", line 149, in training_loop
+    tflib.init_tf(tf_config)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/dnnlib/tflib/tfutil.py", line 119, in init_tf
+    create_session(cfg, force_as_default=True)
+  File "/home/vignesh_pagadala/Desktop/GAN_All/GAN_2/stylegan-master/dnnlib/tflib/tfutil.py", line 142, in create_session
+    session = tf.Session(config=config_proto)
+  File "/home/vignesh_pagadala/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1551, in __init__
+    super(Session, self).__init__(target, graph, config=config)
+  File "/home/vignesh_pagadala/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 676, in __init__
+    self._session = tf_session.TF_NewSessionRef(self._graph._c_graph, opts)
+tensorflow.python.framework.errors_impl.InternalError: cudaGetDevice() failed. Status: CUDA driver version is insufficient for CUDA runtime version

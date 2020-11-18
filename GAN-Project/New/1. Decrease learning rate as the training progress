@@ -1,0 +1,21 @@
+1. Decrease learning rate as the training progresses - *.
+	> 
+	> 
+	> 
+
+2. Radically change learning rate - B
+3. Set B = 0.2
+4. More iterations?
+
+
+SSH
+~~~
+> nohup 
+
+
+
+Store the loss function value.
+Start from the generator and discriminator. 
+
+Fish machines 
+Cod, Tuna
